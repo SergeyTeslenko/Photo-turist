@@ -1,0 +1,78 @@
+ body {
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     color: #fff;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ div,
+ p,
+ input,
+ header {
+     box-sizing: border-box;
+     margin: 0;
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .container {
+     width: 1200px;
+     margin: 0 auto;
+ }
+ 
+ .header {
+     background: #000000;
+     padding-top: 41px;
+     padding-bottom: 180px;
+ }
+ 
+ .nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 180px;
+ }
+ 
+ .logo {
+     width: 185px;
+     height: 51px;
+     background: #FFFFFF;
+     border-radius: 10px;
+ }
+ 
+ .phone {
+     font-weight: 800;
+     font-size: 15px;
+ }
+ 
+ .offer {
+     width: 483px;
+     font-weight: 800;
+     line-height: 22px;
+ }
+ 
+ .offer__title {
+     font-size: 30px;
+     line-height: 41px;
+ }
+ 
+ .offer__text {
+     margin-top: 16px;
+     width: 483px;
+     font-size: 16px;
+     line-height: 22px;
+ }
+ 
+ .offer span {
+     color: #2825D8;
+ }
